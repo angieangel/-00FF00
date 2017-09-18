@@ -8,7 +8,7 @@ final float angleUnit = TAU / 128;
 
 
 void setup() {
-  size(100%,100%,P3D);
+  size(1000, 1000, P3D);
   perspective(PI/3, float(width)/height, 1, 900);
   frameRate(16);
   noCursor();
